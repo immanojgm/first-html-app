@@ -13,4 +13,4 @@ jobs:
         - name: executing all mentioned steps
           run: |
             ls
-            cat README.md
+            cat index.html
