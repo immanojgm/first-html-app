@@ -1,0 +1,16 @@
+name: my workflow
+
+on: push
+
+jobs:
+    first_job:
+     runs-on: ubuntu-latest
+     steps: 
+
+        - name: executing all mentioned steps
+          uses: actions/checkout@v4
+
+        - name: executing all mentioned steps
+          run: |
+            ls
+            cat README.md
